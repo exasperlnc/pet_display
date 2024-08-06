@@ -1,0 +1,10 @@
+<%= @user.name %>
+<%= @user.email %>
+
+<% @pets.each do |pet| %>
+  <div class="pet">
+    <h3><%= pet.name %></h3>
+    <p><%= pet.species %></p>
+    <p><%= pet.age %></p>
+  </div>
+<% end %>
