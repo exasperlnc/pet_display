@@ -9,7 +9,7 @@ RSpec.feature "users/show", type: :feature do
 
 
   before :each do
-    visit user_path(user)
+    visit "/users/#{user.id}"
   end
 
   it 'displays the user' do
