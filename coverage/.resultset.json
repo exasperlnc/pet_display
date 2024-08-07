@@ -219,16 +219,16 @@
         "lines": [
           1,
           1,
-          33,
-          33,
+          35,
+          35,
           null,
           null,
           null,
           1,
           1,
-          22,
-          22,
-          22,
+          24,
+          24,
+          24,
           16,
           null,
           null
@@ -250,6 +250,33 @@
       "/Users/logancole/self_start/pet_display/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/logancole/self_start/pet_display/spec/features/users/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -379,6 +406,6 @@
         ]
       }
     },
-    "timestamp": 1722982920
+    "timestamp": 1722983165
   }
 }

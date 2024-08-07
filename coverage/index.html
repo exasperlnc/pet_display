@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-08-06T17:22:00-05:00">2024-08-06T17:22:00-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-08-06T17:26:05-05:00">2024-08-06T17:26:05-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.58
+         2.5
        </span>
     </span> hits/line
     )
@@ -39,12 +39,12 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>20</b> files in total.
+    <b>21</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>114</b> relevant lines,
-    <span class="green"><b>114</b> lines covered</span> and
+    <b>129</b> relevant lines,
+    <span class="green"><b>129</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -253,7 +253,18 @@
             <td class="cell--number">10</td>
             <td class="cell--number">10</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">15.20</td>
+            <td class="cell--number">16.20</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#a603a34f9ec330d89b10ce0d0e11321140274ffb" class="src_link" title="spec/features/users/index_spec.rb">spec/features/users/index_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">15</td>
+            <td class="cell--number">15</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.27</td>
             
           </tr>
         
@@ -3228,8 +3239,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="33" data-linenumber="3">
-            <span class="hits">33</span>
+          <li class="covered" data-hits="35" data-linenumber="3">
+            <span class="hits">35</span>
             
 
             
@@ -3239,8 +3250,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="33" data-linenumber="4">
-            <span class="hits">33</span>
+          <li class="covered" data-hits="35" data-linenumber="4">
+            <span class="hits">35</span>
             
 
             
@@ -3305,8 +3316,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="22" data-linenumber="10">
-            <span class="hits">22</span>
+          <li class="covered" data-hits="24" data-linenumber="10">
+            <span class="hits">24</span>
             
 
             
@@ -3316,8 +3327,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="22" data-linenumber="11">
-            <span class="hits">22</span>
+          <li class="covered" data-hits="24" data-linenumber="11">
+            <span class="hits">24</span>
             
 
             
@@ -3327,8 +3338,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="22" data-linenumber="12">
-            <span class="hits">22</span>
+          <li class="covered" data-hits="24" data-linenumber="12">
+            <span class="hits">24</span>
             
 
             
@@ -3367,6 +3378,290 @@
             
 
             <code class="ruby"> end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="a603a34f9ec330d89b10ce0d0e11321140274ffb">
+  <div class="header">
+    <h3>spec/features/users/index_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>15</b> relevant lines.
+      <span class="green"><b>15</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.feature &quot;users/index&quot;, type: :feature do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="4">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">  !let!(:users) { create_list(:user, 3) }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">  !let!(:user1) { users.first }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">  !let!(:user2) { users.second }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="7">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">  !let!(:user3) { users.third }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before(:each) do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit users_path</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;displays all the users&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(user1.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(user2.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(user3.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(user1.email)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(user2.email)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(user3.email)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
           </li>
         </div>
       
