@@ -7,7 +7,7 @@ FactoryBot.define do
 
  FactoryBot.define do
   factory :pet do
-   name    { Faker::Internet.name }
+   name    { Faker::Name.first_name }
    species { Faker::Creature::Animal.name }
    age     { Faker::Number.number(digits: 2) }
    user    { create(:user) }
