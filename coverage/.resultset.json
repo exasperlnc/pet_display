@@ -244,6 +244,8 @@
           null,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -384,12 +386,9 @@
           null
         ]
       },
-      "/Users/logancole/self_start/pet_display/app/controllers/UsersController.rb": {
+      "/Users/logancole/self_start/pet_display/app/controllers/PetsController.rb": {
         "lines": [
           1,
-          1,
-          1,
-          null,
           null,
           1,
           2,
@@ -404,8 +403,23 @@
           1,
           null
         ]
+      },
+      "/Users/logancole/self_start/pet_display/app/controllers/UsersController.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1722983165
+    "timestamp": 1723044366
   }
 }
